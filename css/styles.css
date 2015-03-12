@@ -151,7 +151,7 @@ a.button:hover {
 }
 
 
-a.buttonstroke {
+button.buttonstroke {
     border: 3px solid white;
     font-size: .9em;
     text-align: center;
