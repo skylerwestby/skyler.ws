@@ -1,0 +1,503 @@
+
+html {
+height: 100%;
+margin 0;
+background-color: #f2f2f2;
+transition: all 0.3s ease;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: yellow;
+}
+
+::selection {
+    color: white;
+    background: #c9c9c9;
+}
+
+div#welcome {
+	height: 100vh;
+  width: 100%;
+  background-image: url("https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/10964003_1551914708391981_1716643466_n.jpg");
+	background-color: #00BAFF;
+  background-blend-mode: lighten;
+
+  overflow: hidden;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*div#welcome img {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
+div#projects {
+	height: auto;
+	padding-bottom:3em;
+
+	/*background: #00BAFF; My Sky BLUE */
+	text-align: center;
+
+	margin: 0 auto;
+	color: white;
+}
+
+
+header.band {
+    background: #00BAFF;
+    color: white;
+    text-align: center;
+    padding: 10% 0 15% 0;
+    /*learn how to do auto height of the screen*/
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+
+}
+
+h3.left {
+  text-align:left;
+  color:#7f7f7f;
+  margin-top: .8em;
+}
+
+header.band.h1{
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+
+p.large {
+    font-size: 3em;
+    padding: 0 1.5em;
+}
+
+p.cardwords {
+  padding-left: 1.5em;
+  font-size: 1.75em;
+  color: #c9c9c9 !important;
+}
+
+p.cardwords span#name {
+  color: #00BAFF;
+  font-weight: 500;
+}
+
+p.cardwords a.cardlink {
+  color: #c9c9c9 !important;
+  text-decoration: none !important;
+}
+
+/*——————————————————————————————————ANCORS */
+
+a {
+	text-decoration:none;
+	color:white;
+	border-bottom: 1px solid #c9c9c9;
+	box-shadow: inset 0 -4px 0 #c9c9c9;
+}
+
+a:hover{
+	border-bottom: 1px solid #c9c9c9;
+	box-shadow: inset 0 -20px 0 #c9c9c9;
+	transition: 0.5s ease;
+}
+
+a.button {
+    background: #e33f0c;
+    text-align: center;
+    padding: .5em 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    /*transition cross-browser stuff*/
+    -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+    -o-transition: background 0.2s ease-out;  /* Opera 10.5�12.00 */
+    transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+
+}
+
+a.button:hover {
+    background: #ab3009;
+}
+
+
+a.buttonstroke {
+    border: 3px solid white;
+    font-size: .9em;
+    text-align: center;
+    padding: .5em 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    /*transition cross-browser stuff*/
+    -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+    -o-transition: background 0.2s ease-out;  /* Opera 10.5�12.00 */
+    transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+
+}
+
+a.buttonstroke:hover {
+    background: #ab3009;
+}
+
+
+
+/*—————————————————————————————————— DIVS */
+
+
+div.sky {
+ /*Figure out viewport height here
+  background-color:rgb(51,204,255);  */
+  background-color: DeepSkyBlue;
+  top: 0;
+  left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div#row.top {
+  margin-top:25%;
+}
+
+div#bounce {
+  text-align: center;
+  padding: 3em;
+}
+
+object.logo {
+  margin: auto;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+  width:100px;
+  height:100px;
+
+  transition: all 0.5s ease;
+  padding: 10px;
+
+
+}
+
+object.logo:hover {
+
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+  width:200px;
+  height:200px;
+
+  padding: 20px;
+}
+
+
+
+p {
+    line-height: 1.3em;
+}
+
+div.band.main#top{
+    padding-top: 3em;
+}
+
+
+
+
+/*————————————————————————— ME */
+
+
+footer.band.main {
+  background-color: #00BAFF;
+  color: white;
+	height: 10em;
+}
+
+footer p {
+    font-family: 'Oswald', sans-serif;
+    font-size: .8em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+		text-align: center;
+}
+
+div#footerImage {
+	padding-top:1em;
+	text-align:center;
+	display: block;
+	background-color: #00BAFF;
+	padding-bottom: 1em;
+}
+
+img#portrait {
+	height: 4em;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5�12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+
+}
+
+
+/*————————————————————— CARDS*/
+div#cardA {
+	background-color: #00BAFF;
+	float: left;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 10em 0 10em 15%;
+	box-shadow: 0px 5px 9px #c9c9c9;
+
+	font-size: .75em;
+	transition: 0.5s ease;
+
+}
+
+div#cardB {
+
+	background-color: #ffffff;
+	box-shadow: 0px 5px 9px #c9c9c9;
+	float: right;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 10em 15% 10em 0;
+	font-family: 'Oswald';
+	font-weight: 100;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	transition: 0.5s ease;
+}
+
+div#cardB h4 {
+	margin: 1em 1em 1em 1em;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+div#cardinfo {
+	margin-top: 10em;
+}
+
+object.cardlogo {
+	text-align: center;
+margin: 0 auto;
+margin-top: 70%;
+width: 100%;
+line-height: 500px;
+height: 15%;
+}
+
+div.cardwrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* MEDIA QUERIES��������������������������������������������*/
+
+@media only screen and (min-width: 767px) {
+    body {
+        font-size: 1.125em; /* 18px 16px*/
+        line-height: 1.7em;
+    }
+
+    header.band {
+        /*background-image: url(http://photos-h.ak.instagram.com/hphotos-ak-xaf1/t51.2885-15/10802760_377208145769375_968617172_n.jpg);*/
+        background-size: 100%;
+    }
+
+    header.band h1 {
+        font-size: 3.25em;
+    }
+
+
+
+    a.button {
+        padding: .75em 1.5em;
+    }
+}
+
+@media only screen and (max-width:890px) {
+
+/*————————————————————— CARDS*/
+div#cardA {
+	background-color: #00BAFF;
+	float: left;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 10em -35% 10em 15%;
+	box-shadow: 0px 5px 9px #c9c9c9;
+
+	font-size: .75em;
+
+}
+
+div#cardB {
+
+	background-color: #ffffff;
+	box-shadow: 0px 5px 9px #c9c9c9;
+	float: right;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 12em 15% 10em -35%;
+	font-family: 'Oswald';
+	font-weight: 100;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+/*————————————————————— CARDS*/
+div#cardA {
+	background-color: #00BAFF;
+	float: left;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 10em -35% 10em 5%;
+	box-shadow: 0px 5px 9px #c9c9c9;
+
+	font-size: .75em;
+
+}
+
+div#cardB {
+
+	background-color: #ffffff;
+	box-shadow: 0px 5px 9px #c9c9c9;
+	float: right;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 12em 5% 10em -35%;
+	font-family: 'Oswald';
+	font-weight: 100;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+}
+
+
+@media only screen and (max-width:430px) {
+
+/*————————————————————— CARDS*/
+div#cardA {
+	background-color: #00BAFF;
+
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 5em 5% 5em 5%;
+	box-shadow: 0px 5px 9px #c9c9c9;
+
+	font-size: .75em;
+
+}
+
+div#cardB {
+
+	background-color: #ffffff;
+	box-shadow: 0px 5px 9px #c9c9c9;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 12em 5% 10em 5%;
+	font-family: 'Oswald';
+	font-weight: 100;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+}
+
+
+@media only screen and (min-width:10000px) {
+
+/*————————————————————— CARDS*/
+div#cardA {
+	background-color: #00BAFF;
+	float: right;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 10em 0 10em 5%;
+	box-shadow: 0px 5px 9px #c9c9c9;
+
+	font-size: .75em;
+
+}
+
+div#cardB {
+
+	background-color: #ffffff;
+	box-shadow: 0px 5px 9px #c9c9c9;
+	float: left;
+	width: 311px;
+	height: 544px;
+	display: block;
+	margin: 12em 5% 10em 0;
+	font-family: 'Oswald';
+	font-weight: 100;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+}
